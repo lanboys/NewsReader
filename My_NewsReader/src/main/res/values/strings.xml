@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">NewsReader</string>
+
+    <!-- 全局 -->
+    <string name="image_desc">这是一张图片</string>
+    <string name="skipText">跳过</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- 热点新闻界面,初始化界面显示的文字 -->
+    <string name="loadText">小二正在飞速加载数据..</string>
+    <string name="loadMoreText">正在载入...</string>
+
+
+    <!--主页面tab标题文字-->
+    <string-array name="home_tab_title">
+        <item>新闻</item>
+        <item>话题</item>
+        <item>直播</item>
+        <item>首页</item>
+    </string-array>
+    <!-- 新闻页面左右滑动标题文字 -->
+    <string-array name="news_fragment_tab_title">
+        <item>头条</item>
+        <item>要闻</item>
+        <item>娱乐</item>
+        <item>体育</item>
+        <item>网易号</item>
+        <item>视频</item>
+        <item>财经</item>
+        <item>科技</item>
+        <item>汽车</item>
+        <item>时尚</item>
+        <item>图片</item>
+    </string-array>
+
+    <!-- 话题左右滑动标题文字 -->
+    <string-array name="topic_fragment_tab_title">
+        <item>问吧</item>
+        <item>话题</item>
+        <item>关注</item>
+    </string-array>
+
+
+    <!-- 广告时间 -->
+    <integer name="ad_time">5000</integer>
+
+
+</resources>

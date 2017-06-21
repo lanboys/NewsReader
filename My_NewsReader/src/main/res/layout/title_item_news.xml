@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/title_background_height"
+                android:background="@color/colorHome"
+                android:padding="5dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/image_desc"
+        android:paddingLeft="15dp"
+        android:src="@drawable/ic_main_logo"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="120dp"
+        android:contentDescription="@string/image_desc"
+        android:src="@drawable/ic_main_menu_search"/>
+
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+
+        android:layout_centerInParent="true"
+        android:layout_marginRight="15dp">
+
+        <ImageView
+            android:id="@+id/anim_news_title_live"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="12dp"
+            android:contentDescription="@string/image_desc"
+            android:src="@drawable/news_title_live_anim"/>
+
+        <ImageView
+            android:id="@+id/iv_news_title_live"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="12dp"
+            android:contentDescription="@string/image_desc"
+            android:src="@drawable/va"
+            android:visibility="invisible"/>
+
+        <TextView
+            android:id="@+id/tv_new_title_live"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"
+            android:gravity="center_vertical"
+            android:textStyle="italic"
+            android:text="5"/>
+
+    </FrameLayout>
+
+
+</RelativeLayout>

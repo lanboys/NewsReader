@@ -1,0 +1,46 @@
+<in.srain.cube.views.ptr.PtrClassicFrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cube_ptr="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ptr_hot_news_frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--<in.srain.cube.views.loadmore.LoadMoreListViewContainer-->
+        <!--android:id="@+id/load_more_list_view_container"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+
+        <ListView
+            android:id="@+id/lv_hot_news"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    <!--</in.srain.cube.views.loadmore.LoadMoreListViewContainer>-->
+</in.srain.cube.views.ptr.PtrClassicFrameLayout>
+
+    <!--<FrameLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent">-->
+
+    <!--<LinearLayout-->
+    <!--android:id="@+id/ll_load_data_container"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:background="@android:color/white"-->
+    <!--android:gravity="center"-->
+    <!--android:orientation="vertical">-->
+
+    <!--<ProgressBar-->
+    <!--style="@style/Widget.AppCompat.ProgressBar"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"/>-->
+
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="@string/loadText"/>-->
+
+    <!--</LinearLayout>-->
+
+    <!--</FrameLayout>-->
+

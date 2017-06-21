@@ -1,0 +1,119 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context="com.bing.lan.newsreader.fragment.NewsFragment">
+
+    <!--Immersive Mode   Translucent Bars,-->
+
+    <ImageView
+        android:id="@+id/iv_translucent_bars"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@color/colorHome"
+        android:contentDescription="@string/image_desc"/>
+
+    <include layout="@layout/title_item_news"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="0dp"
+
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <android.support.design.widget.TabLayout
+                android:id="@+id/tl_hot_tablayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:tabIndicatorColor="@color/colorHome"
+                app:tabMode="scrollable"
+                app:tabSelectedTextColor="@color/colorHome"
+                app:tabTextColor="@color/colorHomeTabText"/>
+
+            <TextView
+                android:id="@+id/tv_change_tip"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@color/colorAccent"
+                android:gravity="center_vertical"
+                android:text="切换栏目"
+                android:textSize="20sp"
+                android:visibility="gone"
+                />
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/ibtn_news_arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:background="@drawable/bg_btn_arrow"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                android:src="@drawable/icon_news_column_add_down"/>
+
+            <TextView
+                android:id="@+id/tv_change_done"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:background="#ceeae8"
+                android:gravity="center_vertical"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                android:text="完成"
+                android:textColor="#a4129f"
+                android:textSize="16sp"
+                android:visibility="gone"
+                />
+
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/vp_hot_viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <LinearLayout
+            android:id="@+id/ll_load_data_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ProgressBar
+                style="@style/Widget.AppCompat.ProgressBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/loadText"/>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+</LinearLayout>

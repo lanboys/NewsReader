@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <!--主题颜色-->
+    <color name="colorHome">#ea413d</color>
+    <color name="colorHomeTabText">#a9a9a9</color>
+
+    <!-- 话题内部标签文字颜色 -->
+    <color name="colorTopicTabText">#ffffff</color>
+
+    <!-- 新闻详情页面标题 imageButton 的颜色 -->
+    <color name="color_newsdetail_press">#6495af</color>
+    <color name="color_newsdetail">#00ffffff</color>
+
+    <color name="colorGray">#888</color>
+
+
+</resources>
